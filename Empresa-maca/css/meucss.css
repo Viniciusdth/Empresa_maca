@@ -1,23 +1,41 @@
-div.container {
-	background-color:#2A0A12;
-	width: 80%;
+#texto-logo {
+
+  font-size: 2.5rem;
+}
+
+
+.box-shadow {
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05),
+              0 4px 8px 0 rgba(0,0,0,.05);
+}
+
+
+.navbar{
+
+  background-color: #610B0B;
+}
+
+@media(max-width: 500px) {
+
+.h5, .lead{
+
+  font-size: 1rem;
 
 }
 
-div.containerlink {
-	width: 100%;
-	height: 55px;
-	line-height: 15px;
-	margin-top: 15px;
-	display: block;
-	font-weight: bold;
-	text-align: center;
-	text-decoration: none;
 }
+
+
+
+
+
+
 body {
 	background-color:#2A0A12;
 	color:white;
 }
+
+
 div#logo{
 	font:26px Arial, Sans-serif;
 	font-style: bold;
@@ -37,13 +55,7 @@ div#card{
 .border{
 	border-color: black;
 }
-div.container-fluid {
-	background-color: #610B0B;
-	text-decoration: none;
-	padding: 10px;
-	padding-left: 23px;
-	padding-right: 23px;
-}
+
 .breadcrumb {
 background-color: #2A0A12;
 
@@ -55,7 +67,7 @@ background-color: #2A0A12;
 }
 
 .hero-image {
-	background-image: url("empresa3.jpg");
+	background-image: url("../img/empresa3.jpg");
 	height: 443.9px;;
 	background-position: center;
 	background-repeat: no-repeat;
@@ -81,7 +93,7 @@ h2 {
 	padding-right: 5%;
 }
 .MacieiraQualidade{
-		background-image: url("Macieira.jpg");
+		background-image: url("../img/Macieira.jpg");
 	height: 443.9px;;
 	background-position: center;
 	background-repeat: no-repeat;
